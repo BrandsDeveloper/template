@@ -1,0 +1,1208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+/* --------------------------------------- Tamanho da largura da barra de rolagem --------------------------------------- */
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+/* Fundo da área de rolagem*/
+body::-webkit-scrollbar-track{
+    background: white;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #222222;
+    border-radius: 5px;
+}
+
+/* --------------------------------------- Inico Formatações Gerais --------------------------------------- */
+
+main{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+/* --------------------------------------- Fim Formatações Gerais --------------------------------------- */
+
+
+/* --------------------------------------- Formatação do Cabeçalho --------------------------------------- */
+
+header{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    /*  background: aliceblue; */
+}
+
+header #check, .responsive{
+    display: none;
+    font-size: 2.5em;
+    cursor: pointer;
+    float: right;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+header > a{
+    margin: 40px 0px 0px 100px;
+}
+
+header a > h1{
+    font-family: 'Great Vibes', cursive;
+}
+
+header nav ul {
+    width: 50%;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    text-align: center;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 7px;
+    margin-left: 3%;
+}
+
+header nav ul li a{
+    font-size: 0.9em;
+}
+
+/* --------------------------------------- Fim Formatação do Cabeçalho --------------------------------------- */
+
+/* --------------------------------------- Inicio Conteudo do Site --------------------------------------- */
+
+main section#seta{
+    position: fixed;
+    top: 85%;
+    left: 3%;
+    width: 4%;
+    z-index: 2;
+}
+
+main section#seta img{
+    width: 100%;
+}
+
+main section#fundo {
+    width: 100%;
+    height: 800px;
+    background: url(../img/eu.JPG) no-repeat;
+    background-size: cover ;
+}
+
+main div#posicao{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 50%;
+    text-align: right;
+}
+
+main div#posicao h1{
+    width: 60%;    
+    font-size: 6em;
+    font-family: 'Great Vibes', cursive;
+    margin-left: 35%;
+}
+
+main div#posicao p{
+    width: 70%;
+    font-size: 0.9em;
+    margin-left: 25%;
+}
+
+main section#fundo div#icon{
+    position: absolute;
+    top: 75%;
+    left: 70%;
+}
+
+main section#fundo div#icon img{
+    margin: 20px;
+}
+
+main section#site{
+    margin: 140px 0px 0px 0px;
+    height: 600px;
+}
+
+main section#site h1{
+    text-align: center;
+}
+
+main section hr.barra{
+    width: 6%;
+    border: 1px solid #c4c4c4;
+    position: relative;
+    top: 15px;
+    left: 47%;
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+main section#site ul#part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+main section#site ul#part li{
+    width: 30%;
+}
+
+
+main section#site ul#part li img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #c4c4c4;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+main section#site ul#part li img:hover{
+    transform: translate3d(0px, -15px, 0px);
+}
+
+main section#site ul#part li h4{
+    margin: 20px 0px;
+    color: #a52422;
+    font-weight: 500;
+}
+
+main section#site ul#part li a{
+    text-decoration: underline;
+    color: #006989;
+    transition: 0.5s all;
+}
+
+main section#site ul#part li a:hover{
+    color: black;
+}
+
+main section#sobre{
+    width: 100%;
+    height: 600px;
+    background: url(../img/eu2.JPG) no-repeat center top;
+    background-size: 100%;
+}
+
+main section#sobre div.direction{
+    width: 37%;
+    position: relative;
+    left: 56%;
+    top: 25%;
+}
+
+main section#sobre div.direction h1{
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 4%;
+}
+
+main section#sobre div.direction p{
+    margin-bottom: 3%;
+    font-weight: 300;
+    color: #222222;
+}
+
+main section#sobre div.direction a{
+    text-decoration: underline;
+    color: #006989;
+    transition: 0.5s all;
+}
+
+main section#sobre div.direction a:hover{
+    color: black;
+}
+
+main section#info{
+    width: 100%;
+    height: 800px;
+    margin: 40px 0px;
+}
+
+main section#info div.cont{
+    width: 22%;
+    position: relative;
+    top: 15%;
+    left: 18%;
+}
+
+main section#info div.cont h1{
+    font-size: 2.2em;
+}
+
+main section#info div.cont p{
+    font-weight: 300;
+    color: #A4A19C;
+}
+
+main section#info div.icon-2 img{
+    margin: 10px;
+}
+
+main section#info form label{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+main section#info form input{
+    border: 0px;
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 60px;
+    outline: none;
+    margin-top: 8%;
+    padding-left: 25px;
+    font-size: 0.9em;
+}
+
+main section#info form input[type="submit"]{
+    width: 50%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    transition: 0.5s all;
+}
+
+main section#info form input[type="submit"]:hover{
+    background-color: #a52422;
+}
+
+main section#info div#logo{
+    width: 50%;
+    height: 100%;
+    background: url(../img/logo.png) no-repeat center;
+    background-size: 100%;
+    position: relative;
+    bottom: 80%;
+    left: 48%;
+}
+
+main section#paralax{
+    width: 100%;
+    height: 450px;
+    background: url(../img/estudo.JPG) no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main section#paralax .fundinho{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.4;
+}
+
+main section#paralax .encaixe{
+    position: relative;
+    bottom: 65%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+}
+
+main section#paralax .number{
+    font-size: 4em;
+}
+
+main section#paralax .bar{
+    width: 35%;
+    margin: 20px auto;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+main section#paralax h4{
+    font-weight: 300;
+}
+
+main section#lista{
+    width: 100%;
+    height: 800px;
+    background-color: #f7f7f7;
+}
+
+main section#lista > h1{
+    text-align: center;
+    padding: 160px 0px 8px 0px;
+    font-weight: 500;
+    font-size: 2.1em;
+}
+
+main section#lista ul{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    text-align: center;
+}
+
+main section#lista ul li{
+    width: 28%;
+    height: 440px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0px 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section#lista ul li:hover{
+    background-color: #f3e7d8b3;;
+}
+
+main section#lista ul li h1{
+    color: #3a3a3a;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-top: 15%;
+    margin-bottom: 8%;
+}
+
+main section#lista ul li p:nth-of-type(1){
+    color: rgb(202, 51, 51);
+    margin-bottom: 3%;
+}
+
+main section#lista ul li span{
+    color: #3a3a3a;
+    font-size: 3em;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;;
+}
+
+main section#lista ul li p:nth-of-type(2){
+    color:#c4c4c4;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 0.9em;
+}
+
+main section#lista ul li p:nth-of-type(3){
+    color:#c4c4c4;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-size: 0.9em;
+    width: 70%;
+}
+
+main section#lista ul li a{
+    background: black;
+    border: 2px solid black;
+    color: white;
+    padding: 15px;
+    transition: 0.5s all;
+}
+
+main section#lista ul li a:hover{
+    background: none;
+    border: 2px solid black;
+    color: black;
+    padding: 15px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 390px;
+}
+
+footer #text{
+    position: relative;
+    width: 50%;
+    left: 25%;
+    top: 30%;
+    text-align: center;
+}
+
+footer #text a{
+    color: white;
+    display: inline-block;
+    width: 30%;
+}
+
+footer #text h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;   
+}
+
+footer div#text #icon-roda{
+    width: 30%;
+    display: inline-block;
+}
+
+footer div#text #icon-roda img{
+    width: 40%;
+    margin: 10px;
+}
+
+footer p{
+    font-weight: 300;
+    color: #A4A19C;
+}
+
+footer p:nth-of-type(1){
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 0.9em;
+}
+
+footer p:nth-of-type(2){
+    margin-top: 6%;
+    font-size: 0.8em;
+}
+
+/* ------------------------------------- Pagina Quem sou --------------------------------------- */ 
+
+#quem  #eu{
+    width: 100%;
+    height: 1000px;
+}
+
+#quem  #eu .dentro{
+    position: relative;
+    top: 20%;
+    height: 66%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#quem  #eu .dentro .txt{
+    width: 29%;
+    margin-left: 19%;
+}
+
+#quem  #eu .dentro .txt h1{
+    font-size: 4.5em;
+    font-weight: 600;
+    width: 50%;
+    margin-bottom: 30px;
+    font-family: 'Great Vibes';
+}
+
+#quem  #eu .dentro .txt h2{
+    font-size: 1.4em;
+    font-weight: 450;
+    margin-bottom: 25px;
+}
+
+#quem  #eu .dentro .txt p{
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #A4A19C;
+}
+
+#quem  #eu .dentro #foto{
+    width: 50%;
+    height: 100%;
+    background: url(../img/pensando.JPG) no-repeat center;
+    background-size: cover;
+}
+
+#quem #fotos{
+    height: 380px;
+}
+
+#quem #fotos #img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#quem #fotos #img div{
+    width: 20%;
+    height: 70%;
+    background-image: url(../img/estudo.JPG);
+    margin: 20px 0px 0px 15px;
+    border-radius: 15px;
+}
+
+#quem #fotos #img div:nth-of-type(1){
+    background-size: 300%;
+    background-position: left;
+}
+
+#quem #fotos #img div:nth-of-type(2){
+    background-size: 300%;
+    background-position: center;
+}
+
+#quem #fotos #img div:nth-of-type(3){
+    background-size: 300%;
+    background-position: right;
+}
+
+/* ------------------------------------- Pagina de Fotos  --------------------------------------- */ 
+
+#photo header{
+    position: relative;
+}
+
+main#fotos #position{
+    height: 100%;
+    width: 100%;
+}
+
+main#fotos #position h1{
+    position: relative;
+    top: 8%;
+    left: 10%;
+    font-weight: 500;
+    font-size: 5em;
+    font-family: 'Great Vibes', cursive;;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main#fotos #position .imagens{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+    top: 11%;
+    width: 100%;
+}
+
+main#fotos #position .imagens img{
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ------------------------------------- Pagina de Contato  --------------------------------------- */ 
+
+main#contact #area{
+    height: 900px;
+}
+
+main#contact #area .dentro{
+    position: relative;
+    top: 23%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+main#contact #area .dentro .tel{
+    width: 25%;
+}
+
+main#contact #area .dentro .tel h1{
+    font-size: 5em;
+    font-weight: 600;
+    margin-bottom: 5%;
+    font-family: 'Great Vibes';
+}
+
+main#contact #area .dentro .tel > a{
+    margin-bottom: 4%;
+}
+
+main#contact #area .dentro .tel #icon-cont{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main#contact #area .dentro .tel #icon-cont a{
+    display: inline-block;
+    width: 15%;
+}
+
+main#contact #area .dentro .tel #icon-cont a img{
+    width: 100%;
+}
+
+main#contact #area .dentro form {
+    width: 50%;
+    margin-top: 8%;
+}
+
+main#contact #area .dentro form h1{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+main#contact #area .dentro form input:nth-of-type(1){
+    margin: 30px 0px 10px 0px;
+}
+
+main#contact #area .dentro form input:nth-of-type(2){
+    margin-bottom: 10px;
+}
+
+main#contact #area .dentro form input, textarea{
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    padding: 10px 0px 10px 15px;
+    background-color: #f7f7f7;
+    outline: none;
+}
+
+main#contact #area .dentro form textarea{
+    height: 150px;
+    margin-bottom: 2%;
+}
+
+main#contact #area .dentro form input[type="submit"]{
+    width: 25%;
+    padding: 0px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    transition: 400ms all;
+}
+
+main#contact #area .dentro form input[type="submit"]:hover{
+    background: none;
+    color: black;
+}
+
+
+/* ------------------------------------- Área Responsiva do site  --------------------------------------- */ 
+
+@media (min-width: 1000px) and (max-width: 1100px){
+
+    main section#seta {
+        width: 6%;
+    }
+
+    main div#posicao h1 {
+        font-size: 5em;
+        margin-left: 5%;
+    }  
+
+    main div#posicao p {
+        margin-left: 5%;
+    }
+
+    main div#posicao {
+        top: 30%;
+        left: 0%;
+        text-align: left;
+    }
+
+    main section#sobre div.direction {
+        top: 14%;
+    }
+
+    main section#info {
+        margin: 40px 0px 150px 0px;
+    }
+
+    main section#info div.cont {
+        width: 25%;
+        left: 15%;
+    }
+
+    main section#fundo div#icon {
+        position: absolute;
+        top: 75%;
+        left: 1%;
+    }
+
+    #photo header{
+        position: relative;
+    }
+
+    #quem #eu .dentro .txt {
+        width: 38%;
+        margin-left: 10%;
+    }
+
+    main#contact #area .dentro .tel #icon-cont {
+        width: 70%;
+    }
+
+    main#contact #area .dentro form input[type="submit"] {
+        width: 30%;
+    }
+
+    footer #text a{
+        width: 40%;
+    }
+
+    footer div#text #icon-roda a{
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 999px){
+
+    main section#seta {
+        width: 7%;
+    }
+
+    main div#posicao h1 {
+        font-size: 5em;
+        margin-left: 5%;
+    }  
+
+    main div#posicao p {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    main div#posicao {
+        top: 30%;
+        left: 0%;
+        text-align: left;
+    }
+
+    main section#site {
+        margin: 140px 0px 30px 0px;
+        height: 100%;
+    }
+    
+    main section#site ul#part {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main section#site ul#part li {
+        width: 55%;
+        margin-bottom: 20px;
+    }
+
+    main section#sobre {
+        background-size: 140%;
+    }
+
+    main section#sobre div.direction {
+        top: 14%;
+    }
+
+    main section#info {
+        margin: 0px 0px 30px 0px;
+    }
+
+    main section#info div.cont {
+        width: 40%;
+        left: 10%;
+        top: 10%;
+    }
+
+    main section#paralax .number {
+        font-size: 3em;
+    }
+
+
+    main section#lista {
+        height: 100%;
+    }
+
+    main section#lista ul {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section#lista ul li {
+        width: 45%;
+        margin-bottom: 60px;
+    }
+
+    main section#fundo div#icon {
+        position: absolute;
+        top: 75%;
+        left: 1%;
+    }
+
+    #photo header{
+        position: relative;
+    }
+
+    #quem #eu .dentro .txt {
+        width: 38%;
+        margin-left: 10%;
+    }
+
+    #quem #eu .dentro .txt h1 {
+        font-size: 3em;
+        width: 127%;
+    }
+
+    #quem #eu .dentro .txt h2 {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+
+    #quem #eu .dentro .txt p {
+        margin-top: 10px;
+        font-size: 0.89em;
+    }
+
+    main#contact #area .dentro .tel #icon-cont {
+        width: 100%;
+    }
+
+    main#contact #area .dentro form input[type="submit"] {
+        width: 40%;
+    }
+
+    footer #text a{
+        width: 50%;
+    }
+
+    footer div#text #icon-roda {
+        width: 55%;
+    }
+
+    footer div#text #icon-roda a{
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 699px){
+
+    header .responsive{
+        display: block;
+        position: relative;
+        z-index: 4;
+    }
+
+    header > a {
+        margin: 40px 0px 0px 20px;
+        position: relative;
+        z-index: 4;
+    }
+
+    header a > h1 {
+        font-size: 1.8em;
+    }
+
+    header nav ul {
+        width: 100%;
+        position: fixed;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        background-color: #A4A19C;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 0%;
+        transition: all 0.5s;
+        z-index: 3;
+        left: -100%;
+    }
+
+    header nav ul li{
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    #check:checked ~ nav ul{
+        left: 0%;
+    }
+
+    main section#seta {
+        width: 10%;
+        left: 9%;
+    }
+
+    main div#posicao h1 {
+        font-size: 3em;
+        margin-left: 5%;
+    }  
+
+    main div#posicao p {
+        margin-left: 5%;
+        width: 130%;
+    }
+
+    main section#fundo {
+        width: 100%;
+        height: 800px;
+        background: url(../img/eu.JPG) no-repeat center;
+        background-size: cover;
+        background-position-x: 25%;
+    }
+
+    main div#posicao {
+        top: 40%;
+        left: 0%;
+        text-align: left;
+    }
+
+    main section#site {
+        margin: 140px 0px 30px 0px;
+        height: 100%;
+    }
+    
+    main section#site ul#part {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    main section#site ul#part li {
+        width: 55%;
+        margin-bottom: 20px;
+    }
+
+    main section#sobre {
+        background-size: cover;
+        background-position-x: 50%;
+    }
+
+    main section#sobre div.direction {
+        top: 20%;
+        width: 50%;
+        left: 45%;
+    }
+
+    main section#sobre div.direction h1 {
+        font-weight: 600;
+        font-size: 1em;
+        margin-bottom: 4%;
+    }
+
+    main section#info {
+        margin: 0px 0px 90px 0px;
+        height: 1150px;
+    }
+
+    main section#info div.cont {
+        width: 80%;
+        left: 10%;
+        top: 10%;
+    }
+
+    main section#info div.cont .icon-2{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    main section#info div.cont .icon-2 img{
+        margin: 15px;
+    }
+
+    main section#info div#logo {
+        position: relative;
+        bottom: 20%;
+        left: 0%;
+        width: 100%;
+    }
+
+    main section#paralax {
+        height: 580px;
+    }
+
+    main section#paralax .number {
+        font-size: 2em;
+    }
+
+    main section#paralax .encaixe {
+        bottom: 90%;
+        flex-direction: column;
+    }
+
+    main section#paralax .encaixe li{
+        margin-bottom: 10%;
+    }
+
+    main section#paralax .bar {
+        width: 15%;
+        margin: 10px auto;
+    }
+
+    main section#lista {
+        height: 100%;
+    }
+
+    main section#lista > h1 {
+        font-size: 1.8em;
+    }
+
+    main section#lista ul {
+        height: 100%;
+        margin-top: 15%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section#lista ul li {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+
+    main section#lista ul li h1 {
+        font-size: 1.3em;
+    }
+
+    main section#lista ul li span {
+        font-size: 2.5em;
+    }
+
+    main section#fundo div#icon {
+        top: 70%;
+        left: 1%;
+        width: 30%;
+    }
+
+    main section#fundo div#icon img{
+        width: 45%;
+    }
+    
+
+    #photo header{
+        position: relative;
+    }
+
+    #quem #eu {
+        height: 1500px;
+    }
+
+    #quem #eu .dentro {
+        flex-direction: column;
+    }
+
+    #quem #eu .dentro #foto {
+        width: 100%;
+        background-size: cover;
+        background-position-x: 33%;
+    }
+
+    #quem #eu .dentro .txt {
+        width: 85%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    #quem #eu .dentro .txt h1 {
+        font-size: 2.5em;
+        width: 127%;
+    }
+
+    #quem #eu .dentro .txt h2 {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    #quem #eu .dentro .txt p {
+        margin-top: 10px;
+        font-size: 0.85em;
+    }
+
+    #quem #fotos {
+        height: 600px;
+        margin-bottom: 10%;
+    }
+
+    #quem #fotos #img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #quem #fotos #img div {
+        width: 45%;
+    }
+
+    main#contact #area .dentro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main#fotos #position h1 {
+        font-size: 3em;
+    }
+
+    main#contact #area {
+        height: 960px;
+    }
+
+    main#contact #area .dentro .tel {
+        width: 80%;
+    }
+
+    main#contact #area .dentro .tel h1 {
+        font-size: 4em;
+    }
+
+    main#contact #area .dentro form {
+        width: 80%;
+        margin-top: 8%;
+    }
+
+    main#contact #area .dentro form h1 {
+        font-size: 1.3em;
+    }
+
+    main#contact #area .dentro .tel #icon-cont a {
+        width: 10%;
+    }
+
+    main#contact #area .dentro .tel #icon-cont {
+        width: 100%;
+    }
+
+    main#contact #area .dentro form input[type="submit"] {
+        width: 150px;
+    }
+
+    footer #text {
+        width: 80%;
+        left: 13%;
+        top: 30%;
+    }
+
+    footer #text a{
+        width: 100%;
+    }
+
+    footer div#text #icon-roda {
+        width: 85%;
+    }
+
+    footer div#text #icon-roda a{
+        width: 25%;
+    }
+
+    
+
+}
