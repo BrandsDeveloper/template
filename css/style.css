@@ -314,7 +314,7 @@ main section#info div#logo{
 main section#paralax{
     width: 100%;
     height: 450px;
-    background: url(../img/estudo.JPG) no-repeat ;
+    background: url(../img/estudo.JPG) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
