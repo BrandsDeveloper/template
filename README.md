@@ -10,6 +10,6 @@
 
 Esse Site teve a idéia de ser um portfólio / currículo porém ao decorrer da construção acabou se formando algo mais fictício do que real, por conta da falta de metodologia e conteúdo então acabou se tornando mais um projeto para aplicar de forma praticar os conhecimento adquiridos no curso Desenvolvimento Web da plataforma Udemy.
 
-#### Para verificar o resulto clique no botão abaixo:
+#### Para verificar o resultado clique no botão abaixo:
 
 [Clique aqui](http://brandsdeveloper.github.io/template)
